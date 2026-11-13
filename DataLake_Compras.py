@@ -14,7 +14,7 @@ from pyspark.sql.functions import col, year, month
 # ============================================================
 DB_CONFIG = {
     'host': '',           # Substitua pelo seu host
-    'port': 54321,                  # Porta padrão do PostgreSQL
+    'port': 5432,                  # Porta padrão do PostgreSQL
     'database': 'postgres',       # Substitua pelo nome do banco
     'user': '',         # Substitua pelo usuário
     'password': ''        # Substitua pela senha
